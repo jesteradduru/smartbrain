@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/jesteradduru/facerecognitionbrain/static/css/main.8bcf35c5.chunk.css",
-    "main.js": "/jesteradduru/facerecognitionbrain/static/js/main.d1e77f2e.chunk.js",
-    "main.js.map": "/jesteradduru/facerecognitionbrain/static/js/main.d1e77f2e.chunk.js.map",
-    "runtime-main.js": "/jesteradduru/facerecognitionbrain/static/js/runtime-main.21200b6d.js",
-    "runtime-main.js.map": "/jesteradduru/facerecognitionbrain/static/js/runtime-main.21200b6d.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/jesteradduru/facerecognitionbrain/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.b390bcb1.chunk.js": "/jesteradduru/facerecognitionbrain/static/js/2.b390bcb1.chunk.js",
-    "static/js/2.b390bcb1.chunk.js.map": "/jesteradduru/facerecognitionbrain/static/js/2.b390bcb1.chunk.js.map",
-    "index.html": "/jesteradduru/facerecognitionbrain/index.html",
-    "precache-manifest.b2fa81b4a34a90897a38031e0237fdba.js": "/jesteradduru/facerecognitionbrain/precache-manifest.b2fa81b4a34a90897a38031e0237fdba.js",
-    "service-worker.js": "/jesteradduru/facerecognitionbrain/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/jesteradduru/facerecognitionbrain/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.8bcf35c5.chunk.css.map": "/jesteradduru/facerecognitionbrain/static/css/main.8bcf35c5.chunk.css.map",
-    "static/js/2.b390bcb1.chunk.js.LICENSE.txt": "/jesteradduru/facerecognitionbrain/static/js/2.b390bcb1.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/jesteradduru/facerecognitionbrain/static/media/OratorStd.67512010.otf"
+    "main.css": "/facerecognitionbrain/static/css/main.2c3b79a3.chunk.css",
+    "main.js": "/facerecognitionbrain/static/js/main.abef43e9.chunk.js",
+    "main.js.map": "/facerecognitionbrain/static/js/main.abef43e9.chunk.js.map",
+    "runtime-main.js": "/facerecognitionbrain/static/js/runtime-main.dbbcf49d.js",
+    "runtime-main.js.map": "/facerecognitionbrain/static/js/runtime-main.dbbcf49d.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/facerecognitionbrain/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.b390bcb1.chunk.js": "/facerecognitionbrain/static/js/2.b390bcb1.chunk.js",
+    "static/js/2.b390bcb1.chunk.js.map": "/facerecognitionbrain/static/js/2.b390bcb1.chunk.js.map",
+    "index.html": "/facerecognitionbrain/index.html",
+    "precache-manifest.cb65a4a70e55e2d398f1a513070b2d3e.js": "/facerecognitionbrain/precache-manifest.cb65a4a70e55e2d398f1a513070b2d3e.js",
+    "service-worker.js": "/facerecognitionbrain/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/facerecognitionbrain/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.2c3b79a3.chunk.css.map": "/facerecognitionbrain/static/css/main.2c3b79a3.chunk.css.map",
+    "static/js/2.b390bcb1.chunk.js.LICENSE.txt": "/facerecognitionbrain/static/js/2.b390bcb1.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/facerecognitionbrain/static/media/OratorStd.67512010.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.21200b6d.js",
+    "static/js/runtime-main.dbbcf49d.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.b390bcb1.chunk.js",
-    "static/css/main.8bcf35c5.chunk.css",
-    "static/js/main.d1e77f2e.chunk.js"
+    "static/css/main.2c3b79a3.chunk.css",
+    "static/js/main.abef43e9.chunk.js"
   ]
 }

@@ -9,7 +9,7 @@ const ImageLinkForm = ({
     <div className="text-secondary text-center mt-5">
       <h5>
         this magic brain will detect faces in your pictures. give it a try
-      </h5>
+        </h5>
       <div
         className="input-group mb-3 mx-auto m-5"
         style={{ maxWidth: "700px" }}
@@ -27,7 +27,7 @@ const ImageLinkForm = ({
             onClick={onButtonSubmit}
           >
             Detect
-          </button>
+            </button>
         </div>
       </div>
     </div>

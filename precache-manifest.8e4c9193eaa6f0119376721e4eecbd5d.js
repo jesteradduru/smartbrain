@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "898feab8c00f209d891edd05b0e3d13a",
+    "revision": "b0c8385e3659063cd1aec66043692891",
     "url": "/smartbrain/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smartbrain/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "af26c37fc38407a309c6",
+    "revision": "d052cfb04166adcbe45c",
     "url": "/smartbrain/static/css/main.1e1a0659.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smartbrain/static/js/2.b0fefca0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af26c37fc38407a309c6",
-    "url": "/smartbrain/static/js/main.9f2a67dc.chunk.js"
+    "revision": "d052cfb04166adcbe45c",
+    "url": "/smartbrain/static/js/main.70cdaa4a.chunk.js"
   },
   {
     "revision": "d5106abbe4fdad77a194",

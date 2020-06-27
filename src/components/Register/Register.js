@@ -26,7 +26,7 @@ class Register extends React.Component {
   }
 
   onSubmitSignIn = () => {
-    fetch('http://localhost:3001/register', {
+    fetch('https://nameless-anchorage-36091.herokuapp.com/register', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -49,7 +49,7 @@ class Register extends React.Component {
 
   render() {
     return (
-      <div className="card bg-dark mx-auto py-5 px-4 shadow border border-secondary mt-md-5 mt-5" style={{ maxWidth: "370px" }}>
+      <div className="card bg-dark mx-auto py-5 px-4 shadow border border-secondary mt-md-5 my-5" style={{ maxWidth: "370px" }}>
         <h1 className="text-center text-info">REGISTER</h1>
         <hr />
         <Input type="text" className="form-control bg-dark border border-secondary text-secondary" event={this.onNameChange} name="Name" />

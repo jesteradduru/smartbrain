@@ -44,10 +44,12 @@ const inititialState = {
 };
 
 class App extends React.Component {
+
     constructor(props) {
         super(props);
         this.state = inititialState;
     }
+
     calculateFaceLocation = (data) => {
         const clarifaiFace = data.outputs[0].data.regions[0].region_info.bounding_box;
         const image = document.getElementById("picToDetect");
@@ -62,14 +64,13 @@ class App extends React.Component {
     };
     viewFaceBox = (box) => {
         this.setState({ box: box });
-        console.log(box);
     };
     onImageInputChange = (event) => {
         this.setState({ imageInput: event.target.value, box: {}, imageUrl: "" });
     };
     onButtonSubmit = () => {
         this.setState({ imageUrl: this.state.imageInput });
-        fetch("http://localhost:3001/detectImage/", {
+        fetch("https://nameless-anchorage-36091.herokuapp.com/detectImage/", {
             method: "post",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ imgUrl: this.state.imageInput })
@@ -77,13 +78,14 @@ class App extends React.Component {
             .then(res => res.json())
             .then((response) => {
                 if (response) {
-                    fetch("http://localhost:3001/image/", {
+                    fetch("https://nameless-anchorage-36091.herokuapp.com/image/", {
                         method: "put",
                         headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ imgUrl: this.state.user.id })
+                        body: JSON.stringify({ id: this.state.user.id })
                     })
-                        .then((res) => {
-                            console.log(res);
+                        .then((res) => res.json())
+                        .then(entryCount => {
+                            this.setState(Object.assign(this.state.user, { entries: entryCount }))
                             this.viewFaceBox(this.calculateFaceLocation(response));
                         })
                         .catch(console.log)
